@@ -1,0 +1,16 @@
+.jumbotron
+  %center
+    %h1 Assignment
+    %strong
+      = @assignment.name
+    %br
+    %br
+    %strong
+      Description
+      %br
+    = @assignment.description
+    %br
+    %br
+    = button_to "Submit Homework", new_assignment_submission_path(@assignment), class: "buttonlink", method: :get
+    %br
+    = button_to "Submissions", assignment_submissions_path(@assignment), class: "buttonlink", method: :get
