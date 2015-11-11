@@ -14,22 +14,6 @@
  *= require_tree .
  *= require_self
  */
-input#user_password{
-  color: black;
-}
-
-input#user_email{
-
-  color: black;
-}
-
-input#user_name{
-  color: black;
-}
-
-input#user_password_confirmation{
-  color: black;
-}
 
 body {
   padding-top: 50px;
@@ -107,4 +91,24 @@ a:hover {
 
 a:active {
     color: #0000FF;
+}
+input#user_password{
+  color: black;
+}
+
+input#user_email{
+
+  color: black;
+}
+
+input#user_name{
+  color: black;
+}
+
+input#user_password_confirmation{
+  color: black;
+}
+
+input#user_current_password{
+  color: black;
 }
